@@ -42,6 +42,17 @@ $(document).ready(function () {
   // here stars scrolling icon
   $().UItoTop({ easingType: "easeOutQuart" });
 
+// sticky nav
+$(window).scroll(function(){
 
+  if($(this).scrollTop() > 100){
+      $('.navbar').addClass('sticky')
+  } else{
+      $('.navbar').removeClass('sticky')
+  }
+});
 
 });
+
+
+

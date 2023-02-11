@@ -41,6 +41,22 @@ a,
 a:focus {
   outline: none;
 }
+
+.navbar {
+  transition: top 0.3s;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: top 0.3s;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 /*-- banner --*/
 .banner {
   background: url(../images/banner.jpg) no-repeat 0px 0px;
@@ -111,6 +127,7 @@ a:focus {
 }
 nav.navbar.navbar-default {
   background: #000000;
+  border-radius: 0;
   /* margin: 2em 0 0; */
 }
 .navbar-right {
