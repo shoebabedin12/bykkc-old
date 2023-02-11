@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html,
 body {
   font-size: 100%;
@@ -265,10 +259,10 @@ nav.navbar.navbar-default {
 
 .menu--juliet .menu__item::after,
 .menu--juliet .menu__item--current::after {
-  top: 90%;
+  top: 100%;
   margin-left: -5px;
   border-width: 6px;
-  border-top-color: #48b7ec;
+  border-top-color: #fbcb33;
 }
 
 .menu--juliet .menu__link {
